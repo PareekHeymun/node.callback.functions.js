@@ -1,0 +1,11 @@
+{
+  "name": "callback.functions.node.js",
+  "version": "1.0.0",
+  "description": "Make separate file with organized callback functions and require it in the index.js for neat implementation of codebases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heymun Pareek",
+  "license": "MIT"
+}
