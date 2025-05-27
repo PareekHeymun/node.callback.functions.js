@@ -35,17 +35,14 @@ const http = require('http');
 const cfns = require('./callback.functions.js');
 const path = require('path');
 
-// Automatically generate html_path_arr from a folder
 const htmlFolder = './html_files';
 const html_path_arr = fs.readdirSync(htmlFolder)
     .filter(file => file.endsWith('.html'))
     .map(file => path.join(htmlFolder, file));
-
-// Generate routes automatically: '/', '/about', etc.
-const routes_arr = html_path_arr.map((_, i) => i === 0 ? '/' : `/${path.parse(html_path_arr[i]).name}`);
+const routes_arr = html_path_arr.map((file, i) => i === 0 ? '/' : `/${path.parse(file).name}`);
 
 const server = http.createServer(cfns.defaulthttpServer(html_path_arr, routes_arr));
-server.listen(3000, () => cfns.listener(3000)());
+server.listen(3000, cfns.listener(3000));
 ```
 
 ---
