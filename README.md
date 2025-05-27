@@ -1,6 +1,7 @@
 # Node.js: Neatly Organized Library for Ready-to-Use Callback Functions
 
 A modular Node.js library that provides reusable, well-structured callback functions for file operations and HTTP server routing. This project helps you avoid repetitive callback code and keeps your Node.js projects clean and maintainable.
+
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ---
 
