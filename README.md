@@ -2,7 +2,7 @@
 
 A modular Node.js library that provides reusable, well-structured callback functions for file operations and HTTP server routing. This project helps you avoid repetitive callback code and keeps your Node.js projects clean and maintainable.
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ---
 
 ## Features
